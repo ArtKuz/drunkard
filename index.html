@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Карточная игра "Пьяница"</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Карточная игра "Пьяница"</h1>
+        <div class="settings">
+            <h2>Настройки</h2>
+            <form action="#">
+                <label for="playersCount">Количество игроков(2-8):</label>
+                <input type="number" id="playersCount" value="4" maxlength="5" tabindex="1" required pattern="[2-8]"/>
+                <div class="error"></div>
+                <label for="timer">Длительность хода (мс):</label>
+                <input type="number" id="timer" value="300" maxlength="5" tabindex="2" required pattern="[1-99999]"/>
+                <div class="control">
+                    <button id="start">Старт</button>
+                    <button id="stop">Стоп</button>
+                    <button id="pause">Пауза</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="table">
+            <div id="player1"><div class="name"></div><div class="count"></div></div>
+            <div id="player2"><div class="name"></div><div class="count"></div></div>
+            <div id="player3"><div class="name"></div><div class="count"></div></div>
+            <div id="player4"><div class="name"></div><div class="count"></div></div>
+            <div id="player5"><div class="name"></div><div class="count"></div></div>
+            <div id="player6"><div class="name"></div><div class="count"></div></div>
+            <div id="player7"><div class="name"></div><div class="count"></div></div>
+            <div id="player8"><div class="name"></div><div class="count"></div></div>
+        </div>
+
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
