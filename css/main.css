@@ -139,56 +139,56 @@ input#playersCount {
 }
 
 /*Позиции игроков*/
-#player1 {
+#player0 {
     height: 115px;
     left: 175px;
     position: relative;
     top: 20px;
     width: 79px;
 }
-#player2 {
+#player1 {
     height: 115px;
     left: 295px;
     position: relative;
     top: 290px;
     width: 79px;
 }
-#player3 {
+#player2 {
     height: 115px;
     left: 440px;
     position: relative;
     top: -95px;
     width: 79px;
 }
-#player4 {
+#player3 {
     height: 115px;
     left: 20px;
     position: relative;
     top: -55px;
     width: 79px;
 }
-#player5 {
+#player4 {
     height: 115px;
     left: 295px;
     position: relative;
     top: -440px;
     width: 79px;
 }
-#player6 {
+#player5 {
     height: 115px;
     left: 175px;
     position: relative;
     top: -170px;
     width: 79px;
 }
-#player7 {
+#player6 {
     height: 115px;
     left: 440px;
     position: relative;
     top: -400px;
     width: 79px;
 }
-#player8 {
+#player7 {
     height: 115px;
     left: 20px;
     position: relative;
@@ -208,6 +208,20 @@ input#playersCount {
     text-align: right;
     top: -36px;
     width: 19px;
+}
+#findings {
+    background: none repeat scroll 0 0 #BEFFBE;
+    font-size: 12px;
+    border: 4px solid green;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    top: 20px;
+    width: 120px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
 }
 
 /*Карты*/
