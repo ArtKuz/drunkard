@@ -231,230 +231,160 @@ input#playersCount {
 }
 .clubsA {
     background: url("../img/cards.png") no-repeat scroll 0px 0px transparent;
-    z-index: 100;
 }
 .clubs2 {
     background: url("../img/cards.png") no-repeat scroll -79px 0px transparent;
-    z-index: 100;
 }
 .clubs3 {
     background: url("../img/cards.png") no-repeat scroll -157px 0px transparent;
-    z-index: 100;
 }
 .clubs4 {
     background: url("../img/cards.png") no-repeat scroll -236px 0px transparent;
-    z-index: 100;
 }
 .clubs5 {
     background: url("../img/cards.png") no-repeat scroll -315px 0px transparent;
-    z-index: 100;
 }
 .clubs6 {
     background: url("../img/cards.png") no-repeat scroll -393px 0px transparent;
-    z-index: 100;
 }
 .clubs7 {
     background: url("../img/cards.png") no-repeat scroll -472px 0px transparent;
-    z-index: 100;
 }
 .clubs8 {
     background: url("../img/cards.png") no-repeat scroll -551px 0px transparent;
-    z-index: 100;
 }
 .clubs9 {
     background: url("../img/cards.png") no-repeat scroll -630px 0px transparent;
-    z-index: 100;
 }
 .clubs10 {
     background: url("../img/cards.png") no-repeat scroll -708px 0px transparent;
-    z-index: 100;
 }
 .clubsJ {
     background: url("../img/cards.png") no-repeat scroll -787px 0px transparent;
-    z-index: 100;
 }
 .clubsQ {
     background: url("../img/cards.png") no-repeat scroll -866px 0px transparent;
-    z-index: 100;
 }
 .clubsK {
     background: url("../img/cards.png") no-repeat scroll -945px 0px transparent;
-    z-index: 100;
 }
 .diamondsA {
     background: url("../img/cards.png") no-repeat scroll 0px -114px transparent;
-    z-index: 100;
 }
 .diamonds2 {
     background: url("../img/cards.png") no-repeat scroll -79px -114px transparent;
-    z-index: 100;
 }
 .diamonds3 {
     background: url("../img/cards.png") no-repeat scroll -157px -114px transparent;
-    z-index: 100;
 }
 .diamonds4 {
     background: url("../img/cards.png") no-repeat scroll -236px -114px transparent;
-    z-index: 100;
 }
 .diamonds5 {
     background: url("../img/cards.png") no-repeat scroll -315px -114px transparent;
-    z-index: 100;
 }
 .diamonds6 {
     background: url("../img/cards.png") no-repeat scroll -393px -114px transparent;
-    z-index: 100;
 }
 .diamonds7 {
     background: url("../img/cards.png") no-repeat scroll -472px -114px transparent;
-    z-index: 100;
 }
 .diamonds8 {
     background: url("../img/cards.png") no-repeat scroll -551px -114px transparent;
-    z-index: 100;
 }
 .diamonds9 {
     background: url("../img/cards.png") no-repeat scroll -630px -114px transparent;
-    z-index: 100;
 }
 .diamonds10 {
     background: url("../img/cards.png") no-repeat scroll -708px -114px transparent;
-    z-index: 100;
 }
 .diamondsJ {
     background: url("../img/cards.png") no-repeat scroll -787px -114px transparent;
-    z-index: 100;
 }
 .diamondsQ {
     background: url("../img/cards.png") no-repeat scroll -866px -114px transparent;
-    z-index: 100;
 }
 .diamondsK {
     background: url("../img/cards.png") no-repeat scroll -945px -114px transparent;
-    z-index: 100;
 }
 .heartsA {
     background: url("../img/cards.png") no-repeat scroll 0px -229px transparent;
-    z-index: 100;
 }
 .hearts2 {
     background: url("../img/cards.png") no-repeat scroll -79px -229px transparent;
-    z-index: 100;
 }
 .hearts3 {
     background: url("../img/cards.png") no-repeat scroll -157px -229px transparent;
-    z-index: 100;
 }
 .hearts4 {
     background: url("../img/cards.png") no-repeat scroll -236px -229px transparent;
-    z-index: 100;
 }
 .hearts5 {
     background: url("../img/cards.png") no-repeat scroll -315px -229px transparent;
-    z-index: 100;
 }
 .hearts6 {
     background: url("../img/cards.png") no-repeat scroll -393px -229px transparent;
-    z-index: 100;
 }
 .hearts7 {
     background: url("../img/cards.png") no-repeat scroll -472px -229px transparent;
-    z-index: 100;
 }
 .hearts8 {
     background: url("../img/cards.png") no-repeat scroll -551px -229px transparent;
-    z-index: 100;
 }
 .hearts9 {
     background: url("../img/cards.png") no-repeat scroll -630px -229px transparent;
-    z-index: 100;
 }
 .hearts10 {
     background: url("../img/cards.png") no-repeat scroll -708px -229px transparent;
-    z-index: 100;
 }
 .heartsJ {
     background: url("../img/cards.png") no-repeat scroll -787px -229px transparent;
-    z-index: 100;
 }
 .heartsQ {
     background: url("../img/cards.png") no-repeat scroll -866px -229px transparent;
-    z-index: 100;
 }
 .heartsK {
     background: url("../img/cards.png") no-repeat scroll -945px -229px transparent;
-    z-index: 100;
 }
 .spadesA {
     background: url("../img/cards.png") no-repeat scroll 0px -343px transparent;
-    z-index: 100;
 }
 .spades2 {
     background: url("../img/cards.png") no-repeat scroll -79px -343px transparent;
-    z-index: 100;
 }
 .spades3 {
     background: url("../img/cards.png") no-repeat scroll -157px -343px transparent;
-    z-index: 100;
 }
 .spades4 {
     background: url("../img/cards.png") no-repeat scroll -236px -343px transparent;
-    z-index: 100;
 }
 .spades5 {
     background: url("../img/cards.png") no-repeat scroll -315px -343px transparent;
-    z-index: 100;
 }
 .spades6 {
     background: url("../img/cards.png") no-repeat scroll -393px -343px transparent;
-    z-index: 100;
 }
 .spades7 {
     background: url("../img/cards.png") no-repeat scroll -472px -343px transparent;
-    z-index: 100;
 }
 .spades8 {
     background: url("../img/cards.png") no-repeat scroll -551px -343px transparent;
-    z-index: 100;
 }
 .spades9 {
     background: url("../img/cards.png") no-repeat scroll -630px -343px transparent;
-    z-index: 100;
 }
 .spades10 {
     background: url("../img/cards.png") no-repeat scroll -708px -343px transparent;
-    z-index: 100;
 }
 .spadesJ {
     background: url("../img/cards.png") no-repeat scroll -787px -343px transparent;
-    z-index: 100;
 }
 .spadesQ {
     background: url("../img/cards.png") no-repeat scroll -866px -343px transparent;
-    z-index: 100;
 }
 .spadesK {
     background: url("../img/cards.png") no-repeat scroll -945px -343px transparent;
-    z-index: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================

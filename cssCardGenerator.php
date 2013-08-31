@@ -29,10 +29,6 @@ foreach($suitArray as $keySuit => $valueSuit) {
 		}
 		echo ".".$valueSuit.$valueRaiting." {<br/>";
 		echo "&nbsp;&nbsp;&nbsp;&nbsp;background: url(\"../img/cards.png\") no-repeat scroll ".$position1."px ".$position2."px transparent;<br/>";
-		//echo "&nbsp;&nbsp;&nbsp;&nbsp;height: 115px;<br/>";
-		//echo "&nbsp;&nbsp;&nbsp;&nbsp;width: 79px;<br/>";
-		echo "&nbsp;&nbsp;&nbsp;&nbsp;z-index: 100;<br/>";
-		//echo "&nbsp;&nbsp;&nbsp;&nbsp;position: absolute;<br/>";
 		echo "}<br/>";
 	}
 }
