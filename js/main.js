@@ -234,7 +234,7 @@ function step(players) { // ход
 			console.log('Победил '+players[0].viewName);
 		}
 		/***/
-		$('#findings').append('<div>Победил'+players[0].viewName+'</div>');
+		$('#findings').append('<div>Победил '+players[0].viewName+'</div>');
 		$('#'+players[0].name+' > .count').text(players[0].playerCards.length);
 		clearInterval(loop);
 		
