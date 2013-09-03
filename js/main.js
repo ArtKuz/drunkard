@@ -180,7 +180,7 @@ function dipute(players, nowCards, playersWins) { // проверям, спор�
 
 				nowCards.forEach(function(player) { // отображаем карты участвующие в ходе
 					$('#'+player.name).removeAttr('class');
-					if (typeof player.card !== 'undefined') {
+					if (typeof player.card !== 'undefined') { // проверяем, что у игрока еще есть карта, которую можно показать
 						$('#'+player.name).addClass(player.card.name);
 					}	
 				});
