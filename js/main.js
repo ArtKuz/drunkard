@@ -178,13 +178,11 @@ function dipute(players, nowCards, playersWins) { // проверям, спор�
 				});
 				BONUS_CARDS = []; // очищаем массив карт, , который достанется победителю спора
 
-				players.forEach(function(player) { // отображаем число карт у игрока
-					$('#'+player.name+' > .count').text(player.playerCards.length);
-				});
-
 				nowCards.forEach(function(player) { // отображаем карты участвующие в ходе
 					$('#'+player.name).removeAttr('class');
-					$('#'+player.name).addClass(player.card.name);
+					if (typeof player.card !== 'undefined') { // проверяем, что у игрока еще есть карта, которую можно показать
+						$('#'+player.name).addClass(player.card.name);
+					}	
 				});
 
 				nowCards.forEach(function(cards) {
@@ -223,6 +221,10 @@ function dipute(players, nowCards, playersWins) { // проверям, спор�
 			BONUS_CARDS.push(cards.card);
 		});
 	}
+
+	players.forEach(function(player) { // отображаем число карт у игрока
+		$('#'+player.name+' > .count').text(player.playerCards.length);
+	});
 }
 
 function step(players) { // ход
@@ -234,7 +236,8 @@ function step(players) { // ход
 			console.log('Победил '+players[0].viewName);
 		}
 		/***/
-		$('#findings').append('<div>Победил'+players[0].viewName+'</div>');
+
+		$('#findings').append('<div>Победил '+players[0].viewName+'</div>');
 		$('#'+players[0].name+' > .count').text(players[0].playerCards.length);
 		clearInterval(loop);
 		
@@ -245,6 +248,7 @@ function step(players) { // ход
 			console.log('Ничья!');
 		}
 		/***/
+
 		$('#findings').append('<div>Ничья!</div>');
 		clearInterval(loop);
 		
@@ -281,13 +285,6 @@ function step(players) { // ход
 				/***/
 
 				players.forEach(function(player, i) { // проверяем, если у игроков карты
-
-					/***/
-					if(($('input#debugging').is(':checked') === true)) {
-						console.log(players, i);
-					}
-					/***/
-
 					if (player.playerCards.length === 0) {
 
 						/***/
